@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles - Magazine</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/articles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="logo">MAGAZINE</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="articles.html" class="active">Articles</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="articles-hero">
+        <h1>Articles</h1>
+        <p>Explore our collection of thought-provoking pieces</p>
+    </div>
+
+    <main class="articles-container">
+        <aside class="articles-sidebar">
+            <div class="filter-section">
+                <h3>Categories</h3>
+                <ul class="filter-list">
+                    <li><a href="#" class="active" data-category="all">All Articles</a></li>
+                    <li><a href="#" data-category="design">Design</a></li>
+                    <li><a href="#" data-category="art">Art</a></li>
+                    <li><a href="#" data-category="typography">Typography</a></li>
+                    <li><a href="#" data-category="culture">Culture</a></li>
+                </ul>
+            </div>
+
+            <div class="newsletter-signup">
+                <h3>Newsletter</h3>
+                <p>Stay updated with our latest articles</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </aside>
+
+        <section class="articles-grid-container">
+            <div class="featured-article" data-category="design">
+                <div class="featured-article-image"></div>
+                <div class="featured-article-content">
+                    <span class="article-category">Design</span>
+                    <h2>The Art of Minimalism in Modern Design</h2>
+                    <p class="article-excerpt">Exploring how less becomes more in contemporary design practices and why minimalism continues to dominate aesthetic preferences across multiple industries.</p>
+                    <div class="article-meta">
+                        <span class="article-date">June 12, 2023</span>
+                        <span class="article-author">By Sarah Chen</span>
+                    </div>
+                    <a href="#" class="read-more">Read Article</a>
+                </div>
+            </div>
+
+            <div class="articles-grid">
+                <article class="article-card" data-category="typography">
+                    <div class="article-image"></div>
+                    <span class="article-category">Typography</span>
+                    <h3>The Enduring Legacy of Courier</h3>
+                    <p class="article-excerpt">How a typewriter font became a staple in modern design and continues to influence digital typography.</p>
+                    <div class="article-meta">
+                        <span class="article-date">May 28, 2023</span>
+                        <span class="article-author">By Michael Reynolds</span>
+                    </div>
+                    <a href="#" class="read-more">Read Article</a>
+                </article>
+
+                <article class="article-card" data-category="art">
+                    <div class="article-image"></div>
+                    <span class="article-category">Art</span>
+                    <h3>Finding Beauty in Negative Space</h3>
+                    <p class="article-excerpt">An exploration of how artists and designers use negative space to create powerful visual statements.</p>
+                    <div class="article-meta">
+                        <span class="article-date">May 15, 2023</span>
+                        <span class="article-author">By Elena Kim</span>
+                    </div>
+                    <a href="#" class="read-more">Read Article</a>
+                </article>
+
+                <article class="article-card" data-category="culture">
+                    <div class="article-image"></div>
+                    <span class="article-category">Culture</span>
+                    <h3>Digital Minimalism in the Age of Excess</h3>
+                    <p class="article-excerpt">How the philosophy of less is transforming our relationship with technology and digital consumption.</p>
+                    <div class="article-meta">
+                        <span class="article-date">April 30, 2023</span>
+                        <span class="article-author">By James Porter</span>
+                    </div>
+                    <a href="#" class="read-more">Read Article</a>
+                </article>
+
+                <article class="article-card" data-category="design">
+                    <div class="article-image"></div>
+                    <span class="article-category">Design</span>
+                    <h3>The Psychology of White Space</h3>
+                    <p class="article-excerpt">Understanding how empty space affects user experience and engagement in interface design.</p>
+                    <div class="article-meta">
+                        <span class="article-date">April 18, 2023</span>
+                        <span class="article-author">By Olivia Wright</span>
+                    </div>
+                    <a href="#" class="read-more">Read Article</a>
+                </article>
+
+                <article class="article-card" data-category="typography">
+                    <div class="article-image"></div>
+                    <span class="article-category">Typography</span>
+                    <h3>Monospace Fonts in Contemporary Design</h3>
+                    <p class="article-excerpt">Why designers are returning to monospace typefaces for their aesthetic and functional qualities.</p>
+                    <div class="article-meta">
+                        <span class="article-date">April 5, 2023</span>
+                        <span class="article-author">By Thomas Ford</span>
+                    </div>
+                    <a href="#" class="read-more">Read Article</a>
+                </article>
+
+                <article class="article-card" data-category="art">
+                    <div class="article-image"></div>
+                    <span class="article-category">Art</span>
+                    <h3>The Fine Line: Minimalism vs. Simplicity</h3>
+                    <p class="article-excerpt">Exploring the subtle distinctions between minimalist art and simple design.</p>
+                    <div class="article-meta">
+                        <span class="article-date">March 22, 2023</span>
+                        <span class="article-author">By Nina Patel</span>
+                    </div>
+                    <a href="#" class="read-more">Read Article</a>
+                </article>
+
+                <article class="article-card" data-category="culture">
+                    <div class="article-image"></div>
+                    <span class="article-category">Culture</span>
+                    <h3>The Resurgence of Print in a Digital World</h3>
+                    <p class="article-excerpt">Why physical magazines and books are experiencing a renaissance despite digital dominance.</p>
+                    <div class="article-meta">
+                        <span class="article-date">March 10, 2023</span>
+                        <span class="article-author">By Robert Chang</span>
+                    </div>
+                    <a href="#" class="read-more">Read Article</a>
+                </article>
+
+                <article class="article-card" data-category="design">
+                    <div class="article-image"></div>
+                    <span class="article-category">Design</span>
+                    <h3>Sustainable Minimalism: Design with Purpose</h3>
+                    <p class="article-excerpt">How minimalist design principles contribute to sustainability and environmental consciousness.</p>
+                    <div class="article-meta">
+                        <span class="article-date">February 28, 2023</span>
+                        <span class="article-author">By Maya Johnson</span>
+                    </div>
+                    <a href="#" class="read-more">Read Article</a>
+                </article>
+            </div>
+
+            <div class="articles-pagination">
+                <button class="pagination-btn active">1</button>
+                <button class="pagination-btn">2</button>
+                <button class="pagination-btn">3</button>
+                <button class="pagination-btn next">Next</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About</h4>
+                <p>A minimalist magazine exploring art, culture, and design.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>hello@minimalistmagazine.com</p>
+                <p>123 Design Street, Creative City</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow</h4>
+                <div class="social-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Pinterest</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Minimalist Magazine. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/articles.js"></script>
+</body>
+</html> 
