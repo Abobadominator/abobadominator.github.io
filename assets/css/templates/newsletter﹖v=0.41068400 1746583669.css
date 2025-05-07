@@ -1,0 +1,112 @@
+.text {
+	margin: 0 40px;
+	width: 33%;
+}
+
+form,
+form .col {
+	width: 100%
+}
+
+p.label::after {
+    content: "";
+}
+
+p.label {
+	margin-bottom: 0.5em;
+}
+
+form p.bar::after {
+    content: "\A";
+    white-space: pre;
+}
+
+.bar {
+	position: relative;
+	top: -0.4em;
+	border-bottom: 0.08em solid black;
+}
+
+form input {
+	position: relative;
+	top: 0.4em;
+	border: 0;
+	border-radius: 0;
+	background-color: transparent;
+	color: black;
+	padding: 0;
+	font-family: inherit;
+	font-size: inherit;
+	outline: none;
+	-webkit-appearance: none;
+	appearance: none;
+	caret-color: black;
+	margin: 0;
+	width: 100%;
+	margin-bottom: 0.25em;
+	margin-top: 1em;
+  letter-spacing: inherit;
+  font-weight: normal;
+}
+
+form input::placeholder {
+  color: black;
+}
+
+form input:focus::placeholder {
+  color: transparent;
+}
+
+form input.submit {
+	width: auto;
+	margin-top: 0.5em;
+	border-bottom: 0;
+	text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.07em;
+  cursor: pointer;
+}
+
+form input.submit:hover {
+	text-decoration: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    mix-blend-mode: multiply;
+}
+
+#mce-error-response, #mce-success-response {
+	margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 960px) { 
+	form input.submit {
+	  text-decoration-thickness: 0.1em;
+	}
+	.bar {
+		border-bottom: 0.1em solid black;
+	}
+}
+
+@media only screen and (max-width: 630px) { 
+	.content {
+    display: block;
+  }
+	.text {
+ 		margin: 0;
+ 		padding: 0 15px;
+  	width: 100%;
+  }
+  
+  .newsletter {
+  	margin-top: 30px;
+  }
+  .newsletter.small {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

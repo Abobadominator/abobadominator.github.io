@@ -1,0 +1,21 @@
+.text {
+	margin: 0 40px;
+	width: 66%;
+}
+
+@media only screen and (max-width: 630px) { 
+	.text {
+	 	margin: 0;
+	 	padding: 0 15px;
+	  	width: 100%;
+	}
+	.position-titles, .position-description {
+		width: 100%;
+	}
+	.positions {
+	    padding: 0 15px;
+	    display: block;
+	    width: 100%;
+	    margin-top: 30px;
+	}
+}

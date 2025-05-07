@@ -1,0 +1,31 @@
+.content {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.text, .credits {
+	margin: 0 40px;
+	width: 66%;
+}
+
+.credits a:hover {
+  text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 630px) { 
+	.content {
+    display: block;
+  }
+	.text, .credits {
+ 		margin: 0;
+ 		padding: 0 15px;
+  	width: 100%;
+  }
+  .text a .hover-thumb {
+    width: calc((100vw - 30px) * 0.4);
+    right: 15px;
+  }
+}
